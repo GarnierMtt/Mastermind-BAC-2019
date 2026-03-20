@@ -1,0 +1,56 @@
+body{
+  background-color: #01160d;
+        width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+			display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.back {
+    background-color:#288fc7;
+    -moz-border-radius:32px;
+    -webkit-border-radius:32px;
+    border-radius:32px;
+    border:2px solid #141314;
+    width: 25%;
+    cursor:pointer;
+    color:#000000;
+    font-family: 'Press Start 2P', cursive;
+    font-size:17px;
+    padding:12px 37px;
+    text-decoration:none;
+    text-shadow:0px 0px 0px #2f6627;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+.back:hover {
+    background-color:#176cff;
+}
+.back:active {
+    position:relative;
+    top:1px;
+}
+
+.police{
+        font-family: 'Press Start 2P', cursive;
+        text-align: center ;
+        color:azure;
+}
+
+.definition{
+  color:azure;
+}
+
+.table{
+	border: 1;
+}
+.center{
+	width: 80%;
+}

@@ -1,0 +1,92 @@
+------
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Mastermind</title>
+	<link href="game.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+	<a href="#" onclick="toggle()" class="triche">*triche*</a>
+
+	<h1>
+		<img class="mast" src="Image/Mastermind.png">
+	</h1>
+
+
+	<div id="valt" class="valt">
+		<div id="code" class="boite">
+			<div><img id="c1" class="code" src="Image/0.png"></div>
+			<div><img id="c2" class="code" src="Image/0.png"></div>
+			<div><img id="c3" class="code" src="Image/0.png"></div>
+			<div><img id="c4" class="code" src="Image/0.png"></div>
+		</div>
+		<div><img id="cadenat" class="code" src="Image/cadnat.png"></div>
+	</div>
+
+
+	<div class="midel" id="midel">
+	</div>
+
+	<p class="launch">
+	<div class="button"><a href="#" class="bstart" onclick="valide()">Valider</a></div>
+	</p>
+
+
+	<div class="rons">
+		<select id="select1" onchange="change1();" class="select">
+			<option class="0">------ </option>
+			<option class="1"> violet </option>
+			<option class="2"> rouge </option>
+			<option class="3"> orange </option>
+			<option class="4"> jaune </option>
+			<option class="5"> vert </option>
+			<option class="6"> bleu </option>
+		</select>
+
+
+		<select id="select2" onchange="change2();" class="select">
+			<option class="0">------ </option>
+			<option class="1"> violet </option>
+			<option class="2"> rouge </option>
+			<option class="3"> orange </option>
+			<option class="4"> jaune </option>
+			<option class="5"> vert </option>
+			<option class="6"> bleu </option>
+		</select>
+
+		<select id="select3" onchange="change3();" class="select">
+			<option class="0">------ </option>
+			<option class="1"> violet </option>
+			<option class="2"> rouge </option>
+			<option class="3"> orange </option>
+			<option class="4"> jaune </option>
+			<option class="5"> vert </option>
+			<option class="6"> bleu </option>
+		</select>
+
+		<select id="select4" onchange="change4();" class="select">
+			<option class="0">------ </option>
+			<option class="1"> violet </option>
+			<option class="2"> rouge </option>
+			<option class="3"> orange </option>
+			<option class="4"> jaune </option>
+			<option class="5"> vert </option>
+			<option class="6"> bleu </option>
+		</select>
+	</div>
+
+
+
+
+
+
+
+	<script src="game.js"></script>
+</body>
+
+</html>
